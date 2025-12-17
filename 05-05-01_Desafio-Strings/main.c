@@ -98,4 +98,7 @@ int validarSenha(const char* senha, const char* login) {
     return 1; // senha valida
     
     return 1; // Placeholder
+
+    system("pause");
+    
 }
