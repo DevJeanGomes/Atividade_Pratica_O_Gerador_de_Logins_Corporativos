@@ -37,6 +37,8 @@ int main() {
         printf("Status Senha: INVALIDA (Contem o login)\n");
     }
 
+    system("pause");
+
     return 0;
 }
 
@@ -98,7 +100,5 @@ int validarSenha(const char* senha, const char* login) {
     return 1; // senha valida
     
     return 1; // Placeholder
-
-    system("pause");
     
 }
